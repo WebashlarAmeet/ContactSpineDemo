@@ -33,6 +33,7 @@ class Sidebar extends Spine.Controller
   
   filter: ->
     @query = @search.val()
+	alert ""+@query
     @render()
     
   render: =>
