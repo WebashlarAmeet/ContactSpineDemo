@@ -41,7 +41,7 @@ class Sidebar extends Spine.Controller
     
   change: (item) =>
     @navigate '/contacts',item.id
-    alert ""+item.name
+    
 
   create: ->
     item = Contact.create()
